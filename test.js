@@ -1,54 +1,9 @@
-// function findFast(word) {
-//   let start = new Date();
+findSlow('canada');
+findFast('canada');
 
-//   let countE = 0;
-//   let countO = 0;
+let myString = 'karim';
 
-//   for (let i = 0; i < word.length + 1; i++) {
-//     console.log('for loop');
-//     if (word.charAt(i).toLowerCase() === 'a') {
-//       countE += 1;
-//       console.log('found a');
-//     } else if (word.charAt(i).toLowerCase() === 'n') {
-//       countO += 1;
-//       console.log('found n');
-//     }
-//   }
-//   let elapsed = new Date() - start;
-//   console.log(elapsed);
-
-//   // return countE, countO;
-// }
-
-// function findSlow(word) {
-//   let start = new Date();
-
-//   let countE = 0;
-//   let countO = 0;
-
-//   for (let i = 0; i < word.length + 1; i++) {
-//     if (word.charAt(i).toLowerCase() === 'a') {
-//       countE += 1;
-//     }
-//   }
-
-//   for (let i = 0; i < word.length + 1; i++) {
-//     if (word.charAt(i).toLowerCase() === 'n') {
-//       countO += 1;
-//     }
-//   }
-//   let elapsed = new Date() - start;
-//   console.log(elapsed);
-
-//   // return countE, countO;
-// }
-
-// findSlow('canada');
-// findFast('canada');
-
-// let myString = 'karim';
-
-// console.log(myString.toUpperCase());
+console.log(myString.toUpperCase());
 
 let String = {
   toUpperCase: (string) => {
